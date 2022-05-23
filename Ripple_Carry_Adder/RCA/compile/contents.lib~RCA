@@ -1,0 +1,10 @@
+104
+~E 1 "./src/TestBench/add_sub_TB.vhd" 6 add_sub_tb
+~A 1 "./src/testbench/add_sub_tb.vhd" 9 tb_architecture
+~E 1 "./src/RCA_8.vhd" 4 add_sub
+~A 1 "./src/rca_8.vhd" 14 add_sub_arch
+~C 1 "./src/testbench/add_sub_tb.vhd" 67 testbench_for_add_sub
+~E 1 "./src/FA.vhd" 3 fa
+~A 1 "./src/fa.vhd" 13 faarch
+~E 1 "./src/xor_gate.vhd" 3 xorgate
+~A 1 "./src/xor_gate.vhd" 11 xorarch

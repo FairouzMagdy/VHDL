@@ -1,0 +1,14 @@
+[Version]
+Version=8.1
+[Designs]
+RCA=RCA.adf
+[Settings]
+Active=RCA
+[Expand]
+rca=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

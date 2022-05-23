@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=RCA
+
+[Library]
+RCA=.\RCA.LIB
+
+[$LibMap$]
+RCA=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=add_sub_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/FA.vhd=-1
+/xor_gate.vhd=-1
+/RCA_8.vhd=-1
+/RCA.asdb=-1
+/..\..\..\16bit_CLA\CLA\src\RCA.awc=-1
+TestBench/add_sub_TB.vhd=-1
+TestBench/add_sub_TB_runtest.do=-1
+
+[Files.Data]
+.\src\FA.vhd=VHDL Source Code
+.\src\xor_gate.vhd=VHDL Source Code
+.\src\RCA_8.vhd=VHDL Source Code
+.\src\RCA.asdb=Accelerated Waveform File
+.\..\..\16bit_CLA\CLA\src\RCA.awc=Accelerated Waveform Configuration
+.\src\TestBench\add_sub_TB.vhd=VHDL Test Bench
+.\src\TestBench\add_sub_TB_runtest.do=Macro
+

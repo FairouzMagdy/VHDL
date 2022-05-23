@@ -1,0 +1,18 @@
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -work RCA -2002  $DSN/src/fa.vhd $DSN/src/xor_gate.vhd $DSN/src/rca_8.vhd $DSN/src/testbench/add_sub_tb.vhd
+# Compile...
+# File: c:\My_Designs\Ripple_Carry_Adder\RCA\src\fa.vhd
+# Compile Entity "FA"
+# Compile Architecture "FAARCH" of Entity "FA"
+# File: c:\My_Designs\Ripple_Carry_Adder\RCA\src\xor_gate.vhd
+# Compile Entity "xorgate"
+# Compile Architecture "xorarch" of Entity "xorgate"
+# File: c:\My_Designs\Ripple_Carry_Adder\RCA\src\rca_8.vhd
+# Compile Entity "ADD_SUB"
+# Compile Architecture "ADD_SUB_ARCH" of Entity "ADD_SUB"
+# File: c:\My_Designs\Ripple_Carry_Adder\RCA\src\testbench\add_sub_tb.vhd
+# Compile Entity "add_sub_tb"
+# Compile Architecture "TB_ARCHITECTURE" of Entity "add_sub_tb"
+# Compile Configuration "TESTBENCH_FOR_add_sub"
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

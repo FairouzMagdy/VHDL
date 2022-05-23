@@ -1,0 +1,19 @@
+elbread.dll ver. 1.0.5.375 Sun May 22 20:34:37 2022
+
+
+---------------------------------------
+Entity      | Architecture    | Library
+---------------------------------------
+add_sub_tb  | tb_architecture | rca
+add_sub     | add_sub_arch    | rca
+xorgate     | xorarch         | rca
+fa          | faarch          | rca
+---------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+-------------------------

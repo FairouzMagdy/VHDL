@@ -1,0 +1,60 @@
+timestamp=1653244603014
+
+[add_sub]
+A/add_sub_arch=A/ADD_SUB_ARCH 21|./src/rca_8.vhd|14|1*47314
+B/add_sub_arch=3*13098
+I=0*2382
+I/add_sub_arch=I/ADD_SUB_ARCH 0*7331
+M=11|0|v147|1652887276353|./src/RCA_8.vhd|0*2004*0xa5bee864a9aae9d711a4316749f57d72d0a57f73|0*2312*0x7bd7e13dc0415552f89596087806a8cf
+M/add_sub_arch=M/ADD_SUB_ARCH 21|0|v147|1653244602951|./src/RCA_8.vhd|0*5921*0xcaa001bb1da419e18a69b398594f23282c5abb8a|0*7245*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/RCA_8.vhd|4
+
+[add_sub_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/testbench/add_sub_tb.vhd|9|1*53002
+B/tb_architecture=3*13869
+I=0*4246
+I/tb_architecture=I/TB_ARCHITECTURE 0*8513
+M=11|0|v147|1652887485890|./src/TestBench/add_sub_TB.vhd|0*3994*0x48a9795584d85f354e02f8d2f286864442c02e8c|0*4158*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1653244602988|./src/TestBench/add_sub_TB.vhd|0*7549*0xe67e78ef116cb30356f6abebb912bd1e5ae1eec8|0*8406*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/add_sub_TB.vhd|6
+
+[fa]
+A/faarch=A/FAARCH 21|./src/fa.vhd|13|1*45104
+B/faarch=3*11534
+I=0*458
+I/faarch=I/FAARCH 0*788
+M=11|0|v147|1652886871344|./src/FA.vhd|0*171*0x39d5691fe012e45aa8d00f6a712fbe41c22ef55e|0*396*0x7bd7e13dc0415552f89596087806a8cf
+M/faarch=M/FAARCH 21|0|v147|1653244602876|./src/FA.vhd|0*554*0xcd521348ae33c121b8dfb0be59666f96f856b755|0*716*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/FA.vhd|3
+
+[testbench_for_add_sub]
+E=1*55789
+I=0*5871
+M=2|0|v147|1653244602991|./src/TestBench/add_sub_TB.vhd|0*5489*0x1582b734f1e9510c16f7a1085d874b577f88f8a7|0*5759*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/testbench/add_sub_tb.vhd|67
+
+[xorgate]
+A/xorarch=21|./src/xor_gate.vhd|11|1*46332
+B/xorarch=3*12588
+I=0*1321
+I/xorarch=0*1648
+M=11|0|v147|1652886992177|./src/xor_gate.vhd|0*1040*0xdbfbb9cfef36c7d5cab52fe45798d24f5e35417c|0*1248*0x7bd7e13dc0415552f89596087806a8cf
+M/xorarch=21|0|v147|1653244602914|./src/xor_gate.vhd|0*1422*0x38e09c5e14fa0ec50ace33b6865e296d575e4d44|0*1564*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/xor_gate.vhd|3
+
+[~A]
+ModifyID=104
+Version=73
+
+[~MFT]
+0=42|0RCA.mgf|8513|2579
+1=38|1RCA.mgf|55789|45104
+3=29|3RCA.mgf|13869|11534
+
+[~U]
+add_sub=ADD_SUB 11|0*1757|
+add_sub_tb=11|0*3923|
+fa=FA 11|0*0|
+testbench_for_add_sub=TESTBENCH_FOR_add_sub 2||
+xorgate=11|0*891|
+
