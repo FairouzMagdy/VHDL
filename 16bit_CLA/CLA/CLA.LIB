@@ -1,0 +1,134 @@
+timestamp=1652872874758
+
+[\16bitCLA\]
+A/\16bitCLAARCH\=21|./src/16bitcla.vhd|33|1*39472
+I=0*12385
+I/\16bitCLAARCH\=0*12738
+M=11|0|v147|1652869251615|./src/16bitcla.vhd|0*12157*0x73f8b9c422a0605b55ae1b83699b9e6b228bf155|0*12309*0x7bd7e13dc0415552f89596087806a8cf
+M/\16bitCLAARCH\=21|0|v147|1652869251617|./src/16bitcla.vhd|0*12489*0x33d8735d66bce6bab60404cebebbdc236e189789|0*12644*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/16bitcla.vhd|28
+
+[bitcell]
+A/behavioral=A/Behavioral 21|./src/bitcell.vhd|13|1*128005
+A/bitcellarch=+21|./src/bitcell.vhd|15|1*13873
+B/behavioral=3*71430
+I=0*10370
+I/behavioral=I/Behavioral 0*10742
+M=11|0|v147|1652869251538|./src/bitcell.vhd|0*10036*0xc79734750905d2146c3527c4fd60503b8eae3161|0*10298*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/Behavioral 21|0|v147|1652872874560|./src/bitcell.vhd|0*10471*0xbece3c5854b6f47af9c8b698deeb3932693ab3c8|0*10656*0x7bd7e13dc0415552f89596087806a8cf
+M/bitcellarch=M/BitCellARCH 21|0|v147|1652868627467|./src/BitCell.vhd|0*646*0xe6ecfac504aafa33c8ab2a4588ddab4b0a62a74b|0*836*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/bitcell.vhd|4
+
+[carry_look_ahead]
+A/behavioral=+21|./src/4bitcla.vhd|15|1*73062
+I=0*19471
+M=11|0|v147|1652871257626|./src/16bitCLA.vhd|0*19029*0x08e86738002d766260ed0bb5c28fb96165295926|0*19389*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/Behavioral 21|0|v147|1652869668563|./src/4bitcla.vhd|0*13699*0xd900c3aae70ae9d8945c5f4fac01a5a282a3db5c|0*14660*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/16bitCLA.vhd|4
+
+[cla]
+A/behavioral=A/BEHAVIORAL 21|./src/16bitcla.vhd|15|1*96695
+B/behavioral=3*52345
+I=0*15577
+I/behavioral=I/BEHAVIORAL 0*23034
+M=11|0|v147|1652869425202|./src/16bitcla.vhd|0*15189*0x5fbb3b40a35764f25ad08454a3409618d81fe46f|0*15508*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/BEHAVIORAL 21|0|v147|1652871352055|./src/16bitcla.vhd|0*22359*0x22ba1ae514aff344aaeed522e2966fd72dc41df5|0*22951*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/16bitcla.vhd|4
+
+[cla_16]
+A/behavioral=A/BEHAVIORAL 21|./src/16bitcla.vhd|13|1*133590
+B/behavioral=3*75382
+I=0*23866
+I/behavioral=I/BEHAVIORAL 0*29384
+M=11|0|v147|1652871507571|./src/16bitcla.vhd|0*23464*0xee83fde7c144e47ce41096226ee8759b0e0394b3|0*23794*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/BEHAVIORAL 21|0|v147|1652872874658|./src/16bitcla.vhd|0*28700*0xde2d41c9ce8557d14cdfebf87fa95c3c743a034a|0*29298*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/16bitcla.vhd|4
+
+[cla_16_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/testbench/cla_16_tb.vhd|9|1*137786
+B/tb_architecture=3*78260
+I=0*25128
+I/tb_architecture=I/TB_ARCHITECTURE 0*30806
+M=11|0|v147|1652871754653|./src/TestBench/cla_16_TB.vhd|0*24882*0xedd1fec7a761827dff2cc1705fae4fb4696b9dc6|0*25042*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1652872874712|./src/testbench/cla_16_tb.vhd|0*29548*0x20f1bea86abe3249fcb6daae87a5ce8bf3662c55|0*30701*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/cla_16_TB.vhd|6
+
+[cla_4]
+A/behavioral=A/Behavioral 21|./src/4bitcla.vhd|15|1*129429
+B/behavioral=3*72780
+I=0*20236
+I/behavioral=I/Behavioral 0*21358
+M=11|0|v147|1652871309310|./src/4BitCLA.vhd|0*19842*0x1cc7d864731e86b45f948ef543902798bde839e3|0*20166*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/Behavioral 21|0|v147|1652872874610|./src/4BitCLA.vhd|0*20335*0x98aa3adbb0eee731e98a5cc3f406fdc685810bcb|0*21274*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/4BitCLA.vhd|4
+
+[fourbitcla]
+A/fourbitarch=+21|./src/4bitcla.vhd|16|1*15301
+I=0*16684
+M=11|0|v147|1652869475788|./src/4bitcla.vhd|0*16270*0xe1cca7e2c1101de71d333c3e53d8d66735464f32|0*16609*0x7bd7e13dc0415552f89596087806a8cf
+M/fourbitarch=M/fourBitARCH 21|0|v147|1652868627509|./src/4BitCLA.vhd|0*1832*0x910cdd039ef724d7a365faa22d2c8a691d5ddef9|0*2798*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/4bitcla.vhd|4
+
+[fourbitcla_tb]
+A/tb_architecture=A/TB_ARCHITECTURE 21|./src/TestBench/fourbitcla_TB.vhd|9|1*10460
+B/tb_architecture=3*3954
+I=0*3409
+I/tb_architecture=I/TB_ARCHITECTURE 0*4481
+M=11|0|v147|1652868416239|./src/TestBench/fourbitcla_TB.vhd|0*3139*0x37791b9df55bf94161777f764c27a2e1291b7b80|0*3315*0x7bd7e13dc0415552f89596087806a8cf
+M/tb_architecture=M/TB_ARCHITECTURE 21|0|v147|1652868483343|./src/TestBench/fourbitcla_TB.vhd|0*3516*0x925bb35b71a5a77f898c02a8c4c949265ed6bc5c|0*4368*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/fourbitcla_TB.vhd|6
+
+[partial_full_adder]
+A/behavioral=A/Behavioral 21|./src/bitcell.vhd|13|1*22732
+B/behavioral=3*11387
+I=0*7252
+I/behavioral=I/Behavioral 0*7668
+M=11|0|v147|1652869030604|./src/bitcell.vhd|0*6874*0xc99111c08cd888f2ca739b748441c0479156836a|0*7169*0x7bd7e13dc0415552f89596087806a8cf
+M/behavioral=M/Behavioral 21|0|v147|1652869030606|./src/bitcell.vhd|0*7364*0xfe9e1b24dc91a4872f8a5942b317393f6813f2dd|0*7571*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/bitcell.vhd|4
+
+[tb_carry_look_ahead]
+A/behavior=21|./src/testbench/fourbitcla_tb.vhd|7|1*113582
+B/behavior=3*63789
+I=0*5522
+I/behavior=0*6557
+M=11|0|v147|1652868627546|./src/testbench/fourbitcla_tb.vhd|0*5227*0x8315f4b617e4578e18f60783e5a137e17a055bca|0*5422*0x7bd7e13dc0415552f89596087806a8cf
+M/behavior=21|0|v147|1652871507621|./src/TestBench/fourbitcla_TB.vhd|0*5635*0xd0fe3498b10ed06985c0f6235a1352388f82702c|0*6445*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/testbench/fourbitcla_tb.vhd|4
+
+[testbench_for_cla_16]
+E=1*141148
+I=0*31348
+M=2|0|v147|1652872874717|./src/testbench/cla_16_tb.vhd|0*30979*0xd3cffd058b57174c362e19a303ac437f72cd748e|0*31239*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/testbench/cla_16_tb.vhd|84
+
+[testbench_for_fourbitcla]
+E=1*13432
+I=0*5076
+M=2|0|v147|1652868483347|./src/TestBench/fourbitcla_TB.vhd|0*4662*0x186c7dc947c7840d0f6fadd2cc81b9001e8a85be|0*4955*0x7bd7e13dc0415552f89596087806a8cf
+R=./src/TestBench/fourbitcla_TB.vhd|75
+
+[~A]
+ModifyID=283
+Version=73
+
+[~MFT]
+0=196|0CLA.mgf|31348|13429
+1=87|1CLA.mgf|141148|105551
+3=77|3CLA.mgf|78260|63723
+
+[~U]
+\16bitCLA\=11|0*12086|
+bitcell=11|0*9829|
+carry_look_ahead=11|0*18730|
+cla=CLA 11|0*14931|
+cla_16=CLA_16 11|0*23195|
+cla_16_tb=11|0*24814|
+cla_4=CLA_4 11|0*19581|
+fourbitcla=11|0*15994|
+fourbitcla_tb=11|0*3059|
+partial_full_adder=Partial_Full_Adder 11|0*6634|
+tb_carry_look_ahead=Tb_Carry_Look_Ahead 11|0*5129|
+testbench_for_cla_16=TESTBENCH_FOR_cla_16 2||
+testbench_for_fourbitcla=TESTBENCH_FOR_fourbitcla 2||
+

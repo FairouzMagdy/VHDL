@@ -1,0 +1,12 @@
+[Version]
+Version=8.1
+[Designs]
+cla=.\CLA\CLA.adf
+[Expand]
+cla=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

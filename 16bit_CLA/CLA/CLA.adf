@@ -1,0 +1,50 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=CLA
+
+[Library]
+CLA=.\CLA.LIB
+
+[$LibMap$]
+CLA=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+
+[Groups]
+TestBench=1
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=cla_16_tb|tb_architecture|0 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/BitCell.vhd=-1
+/4BitCLA.vhd=-1
+/16bitCLA.vhd=-1
+/CLA.asdb=-1
+/CLA.awc=-1
+TestBench/cla_16_TB.vhd=-1
+TestBench/cla_16_TB_runtest.do=-1
+
+[Files.Data]
+.\src\BitCell.vhd=VHDL Source Code
+.\src\4BitCLA.vhd=VHDL Source Code
+.\src\16bitCLA.vhd=VHDL Source Code
+.\src\CLA.asdb=Accelerated Waveform File
+.\src\CLA.awc=Accelerated Waveform Configuration
+.\src\TestBench\cla_16_TB.vhd=VHDL Test Bench
+.\src\TestBench\cla_16_TB_runtest.do=Macro
+

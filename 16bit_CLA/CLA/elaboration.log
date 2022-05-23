@@ -1,0 +1,19 @@
+elbread.dll ver. 1.0.5.375 Sun May 22 20:28:01 2022
+
+
+--------------------------------------
+Entity     | Architecture    | Library
+--------------------------------------
+cla_16_tb  | tb_architecture | cla
+cla_16     | behavioral      | cla
+cla_4      | behavioral      | cla
+bitcell    | behavioral      | cla
+--------------------------------------
+
+-------------------------
+Package         | Library
+-------------------------
+standard        | std
+textio          | std
+std_logic_1164  | ieee
+-------------------------

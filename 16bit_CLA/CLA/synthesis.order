@@ -1,0 +1,4 @@
+i<>.\src\BitCell.vhd
+i<>.\src\4BitCLA.vhd
+i<>.\src\16bitCLA.vhd
+i<>.\src\TestBench\cla_16_TB.vhd

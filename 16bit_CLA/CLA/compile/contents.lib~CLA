@@ -1,0 +1,26 @@
+283
+~E 1 "./src/4bitcla.vhd" 4 fourbitcla
+~A 1 "./src/4bitcla.vhd" 16 fourbitarch
+~E 1 "./src/16bitcla.vhd" 4 cla
+~A 1 "./src/16bitcla.vhd" 15 behavioral
+~E 1 "./src/bitcell.vhd" 4 bitcell
+~A 1 "./src/bitcell.vhd" 15 bitcellarch
+~A 1 "./src/bitcell.vhd" 13 behavioral
+~E 1 "./src/16bitcla.vhd" 28 \16bitCLA\
+~A 1 "./src/16bitcla.vhd" 33 \16bitCLAARCH\
+~E 1 "./src/16bitCLA.vhd" 4 carry_look_ahead
+~A 1 "./src/4bitcla.vhd" 15 behavioral
+~E 1 "./src/TestBench/cla_16_TB.vhd" 6 cla_16_tb
+~A 1 "./src/testbench/cla_16_tb.vhd" 9 tb_architecture
+~E 1 "./src/16bitcla.vhd" 4 cla_16
+~A 1 "./src/16bitcla.vhd" 13 behavioral
+~E 1 "./src/4BitCLA.vhd" 4 cla_4
+~A 1 "./src/4bitcla.vhd" 15 behavioral
+~E 1 "./src/bitcell.vhd" 4 partial_full_adder
+~A 1 "./src/bitcell.vhd" 13 behavioral
+~E 1 "./src/TestBench/fourbitcla_TB.vhd" 6 fourbitcla_tb
+~A 1 "./src/TestBench/fourbitcla_TB.vhd" 9 tb_architecture
+~C 1 "./src/testbench/cla_16_tb.vhd" 84 testbench_for_cla_16
+~E 1 "./src/testbench/fourbitcla_tb.vhd" 4 tb_carry_look_ahead
+~A 1 "./src/testbench/fourbitcla_tb.vhd" 7 behavior
+~C 1 "./src/TestBench/fourbitcla_TB.vhd" 75 testbench_for_fourbitcla
